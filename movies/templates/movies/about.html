@@ -1,0 +1,12 @@
+{% extends "movies/_base.html" %}
+
+<html>
+  <body>
+    {% block content %}
+      <h1>Psychological Thriller</h1>
+      {% load static %}
+      <img style="width:100px;" src="{% static 'movies/jeff-graham.png' %}" alt="picture of Jeff Graham">
+    {% endblock content %}
+
+  </body>
+</html>
